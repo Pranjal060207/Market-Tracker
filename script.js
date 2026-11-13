@@ -2,7 +2,14 @@
 const API_URL = "https://api.coingecko.com/api/v3";
 
 let coins = [];
-let watchlist = JSON.parse(localStorage.getItem("watchlist")) || [];
+let watchlist = [];
+
+try {
+    watchlist = JSON.parse(localStorage.getItem("watchlist")) || [];
+} catch (error) {
+    watchlist = [];
+}
+
 let currentTab = "all";
 
 let visibleCoins = 20;
