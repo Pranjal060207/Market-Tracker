@@ -113,3 +113,10 @@ Project: JavaScript Mastery – Milestone 2
 ## License
 
 This project is created for educational purposes.
+
+## Future Improvements
+
+- Add cryptocurrency price charts.
+- Add more cryptocurrency filtering options.
+- Improve API error handling.
+- Add additional market statistics.
