@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CoinPulse is a cryptocurrency market tracker to explore live coin prices, market information, and your personal watchlist.">
+
     <title>CoinPulse - Crypto Market Tracker</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -47,7 +49,7 @@
                 </div>
             </div>
 
-            <button id="themeBtn"
+            <button id="themeBtn" aria-label="Toggle dark mode"
                 class="w-10 h-10 rounded-xl bg-gray-100 dark:bg-[#292a32] hover:bg-gray-200 dark:hover:bg-[#373842]">
                 <i id="themeIcon" class="fa-solid fa-moon"></i>
             </button>
@@ -65,7 +67,7 @@
                 </p>
             </div>
 
-            <button id="refreshBtn"
+           <button id="refreshBtn" type="button"
                 class="bg-emerald-500 hover:bg-emerald-600 text-white px-5 py-3 rounded-xl font-semibold">
                 <i class="fa-solid fa-rotate-right mr-2"></i>
                 Refresh Market
@@ -108,7 +110,7 @@
 
                 <div class="relative flex-1">
                     <i class="fa-solid fa-magnifying-glass absolute left-4 top-4 text-gray-400"></i>
-                    <input id="searchInput" type="text"
+                    <input id="searchInput" type="search" aria-label="Search cryptocurrencies"
                         placeholder="Search cryptocurrency..."
                         class="w-full bg-gray-100 dark:bg-[#25262e] rounded-xl pl-11 pr-4 py-3 outline-none focus:ring-2 focus:ring-emerald-500">
                 </div>
@@ -183,7 +185,7 @@
             <div class="flex items-center justify-between p-5 border-b border-gray-200 dark:border-gray-700 shrink-0">
                 <h2 class="text-xl font-bold">Coin Details</h2>
 
-                <button id="closeModal"
+                <button id="closeModal" aria-label="Close coin details"
                     class="text-gray-500 hover:text-red-500 text-2xl">
                     &times;
                 </button>
