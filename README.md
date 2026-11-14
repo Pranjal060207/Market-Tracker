@@ -120,3 +120,8 @@ This project is created for educational purposes.
 - Add more cryptocurrency filtering options.
 - Improve API error handling.
 - Add additional market statistics.
+
+## Live Demo
+
+ [Visit CoinPulse - Crypto Market Tracker]
+ (https://market-tracker-mu-plum.vercel.app)
